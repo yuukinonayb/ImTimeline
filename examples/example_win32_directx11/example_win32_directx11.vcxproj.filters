@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguizmo">
+      <UniqueIdentifier>{ef552a91-900e-4f08-83ea-c84d8676a883}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImGuizmo.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImLightRig.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImSequencer.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImVectorEditor.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImZoomSlider.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\GraphEditor.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImCurveEdit.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImGradient.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imguizmo\ImApp.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="Timeline.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imguizmo\ImGuizmo.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imguizmo\ImSequencer.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imguizmo\ImVectorEditor.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imguizmo\GraphEditor.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imguizmo\ImCurveEdit.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imguizmo\ImGradient.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="Timeline.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
